@@ -1,0 +1,9 @@
+cifar10
+pip install mlconfig; python APL-BitaHub/main.py --exp_n t_cifar10   --n_r  0.6  --c_p  APL-BitaHub/configs/cifar10/sym  --version  focal/gce/mae/nce+mae/nfl+mae/nfl+rce/ngce/ngce+mae/ngce+rce/nlnl/rce/sce  --seed 32
+
+cifar100
+pip install mlconfig; python APL-BitaHub/main.py --exp_n t_cifar100   --n_r  0.6  --c_p  APL-BitaHub/configs/cifar100/sym  --version  nce+mae/nfl+nce/nce+rce/mae+rce/nfl+rce/ce/nfl+mae/mae  --seed 32
+一个实验要5个小时，8个实验就是40小时。
+
+mnist
+pip install mlconfig; python APL-BitaHub/main.py --exp_n t_mnist   --n_r  0.6  --c_p  APL-BitaHub/configs/mnist/sym  --version ce/gce/mae/nce/nce+mae/nce+rce/nfl+mae/nfl+rce  --seed 32
