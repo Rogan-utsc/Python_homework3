@@ -27,7 +27,7 @@ def main():
     Acc_dict_cifar10=dict()
     Acc_dict_cifar100=dict()
     for data_name in dataset_names:
-        data_path = os.path.join('../results',data_name)
+        data_path = os.path.join('./results',data_name)
         path_list = os.listdir(data_path)
         cou = 0
         for path in path_list:
